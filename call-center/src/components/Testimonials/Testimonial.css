@@ -1,0 +1,67 @@
+.testimonial {
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+    background-color: #dfe8ec;
+   
+    height: auto;
+    width: auto;
+}
+
+.next-btn, .back-btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%);
+    padding: 15px;
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: light;
+}
+
+.back-btn {
+    right: auto;
+    left: 0;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slide img {
+    width: 75px; 
+    height: 95px; 
+    object-fit: cover; 
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.slider ul {
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    transform: translateX(-15%);    
+}
+
+.slider ul li {
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+}
+
+.slide {
+   
+  
+    color: black;
+   
+}
+
+.user-info h2 {
+    display: flex;
+    align-items: center;
+    color: #040b0f;
+    font-size: 25px;   
+}
